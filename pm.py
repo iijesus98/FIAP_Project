@@ -42,7 +42,7 @@ if opcao == "Introdução":
     # Centraliza a imagem usando colunas
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\images.png", width=600)
+        st.image(r"images.png", width=600)
 
     st.markdown('<p class="titulo">Sobre Nós</p>', unsafe_allow_html=True)
     st.write("""
@@ -67,7 +67,7 @@ elif opcao == "Insights":
     # Centralizando a primeira imagem
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Ano Ingresso.png", width=600)
+        st.image(r"Ano Ingresso.png", width=600)
 
     st.write("""
     A maior parte dos alunos vem de escolas públicas, chegando a mais de 89% dos alunos matriculados no período. 
@@ -77,7 +77,7 @@ elif opcao == "Insights":
     # Centralizando a segunda imagem
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Tipo de Inst.png", width=600)
+        st.image(r"Tipo de Inst.png", width=600)
 
     st.write("""
     Todos os alunos bolsistas do período pertenciam à Rede Pública de ensino. Do total de alunos do período, cerca de 15% teve indicação para recebimento de bolsa de estudos:
@@ -86,7 +86,7 @@ elif opcao == "Insights":
     # Centralizando a terceira imagem
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Indicado Bolsa.png", width=600)
+        st.image(r"Indicado Bolsa.png", width=600)
 
     st.write("""
     No que se refere ao sexo dos alunos, há uma leve predominância de alunas do sexo feminino, que representam 53,6% do corpo discente da instituição e 50% dos bolsistas no período.
@@ -100,14 +100,14 @@ elif opcao == "Insights":
     # Centralizando a  imagem
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Média.png", width=600)
+        st.image(r"Média.png", width=600)
         
     st.write("""
     As notas médias dos alunos bolsistas são, de modo geral, superiores que as dos demais alunos, com médias de 6,73, 6,79 e 6,42 nas disciplinas de Português, Matemática e Inglês, respectivamente. Ainda no que diz respeito ao desempenho dos alunos, nota-se um melhor desempenho médio das alunas do sexo feminino. Este fator pode indicar a necessidade de estabelecer ações para melhorar o engajamento e a aprendizagem de alunos com foco no alunos do sexo masculino.
     """)
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Média_Gen.png", width=600)
+        st.image(r"Média_Gen.png", width=600)
 
 
     st.write("""
@@ -115,7 +115,7 @@ elif opcao == "Insights":
     """)
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Ev_Medias_Ano.png", width=600)
+        st.image(r"Ev_Medias_Ano.png", width=600)
     
     st.write("""
     Pesquisas sugerem que diferenças no desenvolvimento entre os sexos podem influenciar no desempenho de habilidades específicas, refletindo no desempenho escolar. Além disso, estereótipos de gênero podem afetar a autoconfiança e o interesse em certas áreas, especialmente entre alunos do sexo masculino. Outros fatores relacionados à diferença na socialização de meninos e meninas podem implicar em traços de comportamento que desfavorecem o desempenho escolar. Essas relações não são absolutas, no entanto, são amplamente observadas em estudos na área pedagógica e educacional. Ações voltadas para minimizar os efeitos desses fatores sobre os alunos e a adoção de métodos de ensino pensados para esta finalidade podem contribuir para mitigar essas diferenças.
@@ -124,7 +124,7 @@ elif opcao == "Insights":
     """)
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Medias_Por_Idade.png", width=600)
+        st.image(r"Medias_Por_Idade.png", width=600)
 
     st.write("""
     Ao observar o perfil de defasagem dos alunos, verifica-se que, apesar das diferenças de desempenho entre meninos e meninas, a distribuição dos alunos entre anos de defasagem segue comportamentos semelhantes para ambos os públicos.
@@ -132,7 +132,7 @@ elif opcao == "Insights":
 
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Defasagem.png", width=600)
+        st.image(r"Defasagem.png", width=600)
 
     st.write("""
     De modo geral, é observada uma tendência de redução gradual nos níveis de defasagem negativos aos longo dos anos, com uma consequente redução na distorção idade-série, e aumento progressivo na adequação do nível dos alunos, visto no aumento do percentual de alunos com defasagem zero de 28,72% em 2022 para 39,94% em 2024. Esse comportamento dos dados evidencia o sucesso da instituição em melhorar o desempenho e adequar os níveis educacionais dos alunos:
