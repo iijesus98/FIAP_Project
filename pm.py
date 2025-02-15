@@ -140,7 +140,7 @@ elif opcao == "Insights":
 
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Desafagem Escolar .png", width=600)
+        st.image(r"Desafagem Escolar .png", width=600)
     
 
     st.write("""
@@ -150,7 +150,7 @@ elif opcao == "Insights":
 
     cols = st.columns(3)
     with cols[1]:
-        st.image(r"C:\Users\isabe\FIAP - TEACH\Pedra.png", width=600)
+        st.image(r"Pedra.png", width=600)
 
     st.write("""
     
